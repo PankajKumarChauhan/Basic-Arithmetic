@@ -1,0 +1,12 @@
+function basicArithmetic(num1, num2) {
+
+  let a = num1 + num2;
+  let b = num1 - num2;
+  let c = num1 * num2;
+  let d = Math.floor(num1/num2);
+  let e = num1 % num2;
+  return(a+" "+b+" "+c+" "+d+" "+e);
+}
+
+console.log(basicArithmetic(30,40));
+exports.basicArithmetic = basicArithmetic;
