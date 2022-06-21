@@ -1,0 +1,12 @@
+function is_positive(number){
+  if(number > 0){
+    return "positive"
+  }
+  else{
+    return "negative"
+  }
+  
+ 
+}
+console.log(is_positive(-127))
+exports.is_positive = is_positive
