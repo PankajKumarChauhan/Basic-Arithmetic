@@ -1,0 +1,8 @@
+function time(seconds){
+  let hr = Math.floor(seconds/3600);
+  let min = Math.floor(seconds/60)-hr*60
+  let sec = seconds%60
+  return (hr+":"+min+":"+sec)
+}
+console.log(time(6000))
+exports.time = time
