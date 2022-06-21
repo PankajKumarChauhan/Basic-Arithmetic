@@ -1,0 +1,8 @@
+const difference = (num) => {
+
+  return num - 13;
+  
+}
+console.log(difference(7));
+
+exports.difference = difference
